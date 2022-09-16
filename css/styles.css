@@ -443,10 +443,21 @@ address {
     color:var(--txt-color);
     margin-bottom:9px;
 }
-.footer-item :not(:nth-last-child) {
+.link-footer-address:hover,
+.link-footer-address::focus{
+  color: var(--accent-color);
+    text-decoration: none;
+}  
+.link.footer-item :not(:nth-last-child) {
     margin-bottom: 9px;
 }
-
+.link-footer-item{
+    color: var(--add-color);
+    text-decoration: none;
+    font-size: 14px;
+    line-height: calc(24/14);
+    margin-bottom:9px;
+}
 
 /* .footer-item {
    

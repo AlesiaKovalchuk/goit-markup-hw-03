@@ -401,6 +401,7 @@ address {
 .link-footer-address{
     text-decoration:none;
     color:var(--txt-color);
+    margin-bottom:9px;
    
 }
 .link-footer-address:hover,
@@ -421,7 +422,7 @@ address {
     color: var(--accent-color);
     text-decoration: none;
 }
-.footer-list link-footer-item:not(nth-last-child){
+.footer-list link-footer-item:not(:nth-last-child){
     margin-bottom:9px;
 }
 

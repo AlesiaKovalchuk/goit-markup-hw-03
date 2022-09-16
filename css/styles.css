@@ -396,8 +396,7 @@ address {
     text-decoration: none;
     font-size: 14px;
     line-height: calc(24/14);
-    margin-bottom:9px;
-
+    
 }
 .link-footer-address{
     text-decoration:none;
@@ -423,7 +422,7 @@ address {
     text-decoration: none;
 }
 .footer-list link-footer-item:not(last-child){
-    margin-bottom:0px;
+    margin-bottom:9px;
 }
 
 /* .footer-item {

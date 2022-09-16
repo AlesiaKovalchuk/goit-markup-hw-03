@@ -456,9 +456,7 @@ address {
     line-height: calc(24/14);
     margin-bottom:9px;
 }
-.link.footer-item :not(:nth-last-child) {
-    margin-bottom: 9px;
-}
+
 /* .footer-item {
    
 }  */

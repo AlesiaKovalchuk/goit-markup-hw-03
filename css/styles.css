@@ -420,8 +420,6 @@ address {
     margin-bottom: 9px;
 }
 
-
-
 .link-footer-item:hover,
 .link-footer-item:focus {
     color: var(--accent-color);
@@ -456,7 +454,7 @@ address {
     line-height: calc(24/14);
     margin-bottom:9px;
 }
-.footer-item:not(:nth-last-child) {
+.link-footer-item:not(:nth-last-child) {
     margin-bottom: 9px;
 } 
 

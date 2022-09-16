@@ -320,11 +320,7 @@ img {
 }
 
 .section-work {
-
     padding-top: 0;
-    
-
-
 }
 
 /* Наша команда */
@@ -438,12 +434,14 @@ address {
     text-decoration: none;
     font-size: 14px;
     line-height: calc(24/14);
-
-
+    margin-bottom:9px
 
 }
 
-
+.link-footer-adress{
+    color:var(--txt-color)
+    margin-bottom:9px
+}
 .footer-item :not(:nth-last-child) {
     margin-bottom: 9px;
 }
@@ -452,13 +450,6 @@ address {
 /* .footer-item {
    
 }  */
-
-
-
-
-
-
-
 
 /* Стилі для portfolio.html */
 .visually-hidden {

@@ -401,7 +401,7 @@ address {
 .link-footer-address{
     text-decoration:none;
     color:var(--txt-color);
-    margin-bottom:9px;
+   
 }
 .link-footer-address:hover,
 .link-footer-address:focus{

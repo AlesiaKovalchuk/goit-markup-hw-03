@@ -423,7 +423,7 @@ address {
     text-decoration: none;
 }
 .footer-list link-footer-item:not(last-child){
-    margin-bottom:9px;
+    margin-bottom:0px;
 }
 
 /* .footer-item {

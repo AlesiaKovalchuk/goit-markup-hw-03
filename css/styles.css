@@ -420,7 +420,7 @@ address {
     color: var(--accent-color);
     text-decoration: none;
 }
-.footer-list link-footer-item:not(last-child){
+.footer-list link-footer-item:not(nth-last-child){
     margin-bottom:9px;
 }
 

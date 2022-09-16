@@ -422,7 +422,7 @@ address {
     color: var(--accent-color);
     text-decoration: none;
 }
-.footer-list link-footer-item:last-child{
+.link-footer-item:last-child{
     margin-bottom:0px;
 }
 

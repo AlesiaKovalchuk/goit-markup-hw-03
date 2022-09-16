@@ -454,7 +454,7 @@ address {
     color: var(--accent-color);
     text-decoration: none;
 }
-.link-footer-item:last-child{
+.link-footer-item:not(:last-child){
     margin-bottom:0px
 }
 

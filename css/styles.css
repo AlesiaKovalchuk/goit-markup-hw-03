@@ -339,7 +339,6 @@ img {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
-
 }
 
 .team-subtitle {
@@ -384,7 +383,6 @@ img {
 address {
     font-style: normal;
     margin-top: 20px;
-
 }
 
 .paragraph {
@@ -392,8 +390,6 @@ address {
     margin: 0;
     margin-bottom: 9px;
 }
-
-
 .link-footer {
     display: block;
     color: var(--add-color);
@@ -403,7 +399,6 @@ address {
     margin-bottom:9px;
 
 }
-
 .link-footer-address{
     text-decoration:none;
     color:var(--txt-color);
@@ -428,7 +423,7 @@ address {
     text-decoration: none;
 }
 .footer-list link-footer-item:last-child{
-    margin-bottom:9px;
+    margin-bottom:0px;
 }
 
 /* .footer-item {

@@ -40,9 +40,7 @@ body {
 
 .header-box {
     display: flex;
-    width: 1200px;
-    padding-right: 15px;
-    padding-left: 15px;
+    
     align-items: center;
 
 
@@ -131,8 +129,7 @@ img {
     display: flex;
     align-items: center;
     gap: 50px;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    
 
 }
 
@@ -247,6 +244,18 @@ img {
     margin-left: auto;
 
 }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
 /* Feature */
 
@@ -313,7 +322,7 @@ img {
 .section-work {
 
     padding-top: 0;
-    padding-bottom: 94px;
+    
 
 
 }
@@ -321,8 +330,7 @@ img {
 /* Наша команда */
 .section-about {
     background-color: var(--add-bg-color);
-    margin-top: 0;
-    margin-bottom: 0;
+    
 }
 
 .container-team {

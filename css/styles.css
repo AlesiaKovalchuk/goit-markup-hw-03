@@ -444,13 +444,11 @@ address {
     margin-bottom:9px;
 }
 .link-footer-address:hover,
-.link-footer-address::focus{
+.link-footer-address:focus{
   color: var(--accent-color);
     text-decoration: none;
 }  
-.link.footer-item :not(:nth-last-child) {
-    margin-bottom: 9px;
-}
+
 .link-footer-item{
     color: var(--add-color);
     text-decoration: none;
@@ -458,7 +456,9 @@ address {
     line-height: calc(24/14);
     margin-bottom:9px;
 }
-
+.link.footer-item :not(:nth-last-child) {
+    margin-bottom: 9px;
+}
 /* .footer-item {
    
 }  */
